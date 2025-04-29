@@ -1,5 +1,26 @@
-[data-name] {
-  color: red;
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src:url(./fonts/Gilroy-Bold.ttf) format('truetype');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src:url(./fonts/Gilroy-Medium.ttf) format('truetype');
+  font-style: normal;
+}
+
+
+h2{
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+  color:  blue;
+}
+#todosDisplay li {
+  font-family: Gilroy-Light;
+
 }
 
 .form-input {
